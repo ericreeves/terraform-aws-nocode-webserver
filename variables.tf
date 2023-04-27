@@ -16,13 +16,13 @@ variable "env" {
 variable "packer_bucket" {
   type        = string
   description = "HCP Packer bucket name containing the source image."
-  default     = "ubuntu20-nginx"
+  default     = "acme-base"
 }
 
 variable "packer_channel" {
   type        = string
   description = "HCP Packer image channel."
-  default     = "production"
+  default     = "development"
 }
 
 variable "address_space" {
