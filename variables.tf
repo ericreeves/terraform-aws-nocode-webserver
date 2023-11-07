@@ -16,7 +16,7 @@ variable "env" {
 variable "packer_bucket" {
   type        = string
   description = "HCP Packer bucket name containing the source image."
-  default     = "ubuntu20-nginx"
+  default     = "cube-ubuntu-base"
 }
 
 variable "packer_channel" {
